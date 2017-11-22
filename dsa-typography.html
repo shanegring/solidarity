@@ -16,90 +16,16 @@
     <!-- Override CSS -->
     <link rel="stylesheet" href="root.css">
     <link rel="stylesheet" href="type.css">
+    <link rel="stylesheet" href="color-palette.css">
   
   </head>
-
-
-  <style>
-
-
-
-  .ColorPaletteWrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: -3.2rem;
-    margin-left: -3.2rem;
-}
-
-  .ColorPalette {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 25rem;
-    flex: 1 1 25rem;
-    padding-top: 3.2rem;
-    padding-left: 3.2rem;
-}
-
-.ColorPaletteShade {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 3rem;
-    padding-right: 1.6rem;
-    padding-left: 1.6rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #f4f6f8;
-}
-
-
-.ColorPaletteLabel {
-    display: block;
-}
-
-.ColorPaletteHex, .ColorPaletteScss {
-    display: block;
-    white-space: nowrap;
-    float: right;
-}
-
-.ColorPaletteShade.hasDarkText {
-    color: #161d25;
-}
-
-.ColorPaletteLabel, .ColorPaletteValue {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 50%;
-    flex: 1 1 50%;
-}
-
-.ColorPaletteShade.isExpanded {
-    height: 7.8rem;
-}
-
-.ColorPaletteShade:first-child {
-    border-top-left-radius: .6rem;
-    border-top-right-radius: .6rem;
-}
-
-.ColorPaletteShade:last-child {
-    border-bottom-left-radius: .6rem;
-    border-bottom-right-radius: .6rem;
-}
-
-</style>
 
 
   <body style="background-color:#F1F1F1">
 
     <div class="row">
       <div class="col-2 mt-4 m-4">
-
+<div style="position: fixed">
 <div style="display: block; margin: auto; text-align: center; padding-top: 50px">     
 <svg width="58px" height="45px" viewBox="0 0 58 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
@@ -115,16 +41,16 @@
 
 
 
-
+        <h2 class="text-center"><em><b>Solidarity</b></em></h2>
         <ul class="nav flex-column ml-4">
           <li class="nav-item">
             <a class="nav-link" href="dsa-welcome.html">Welcome</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="dsa-colors.html">Colors</a>
+            <a class="nav-link" href="dsa-colors.html">Colors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Typography</a>
+            <a class="nav-link active" href="dsa-typography.html">Typography</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Logos and Icons</a>
@@ -137,6 +63,72 @@
           </li>
         </ul>
       </div>
+    </div>
+
+
+      <style>
+
+
+
+    .TypeCodeBlock {
+    position: relative;
+    padding: 1.6rem 2.4rem;
+    border-radius: .6rem;
+    background: #f4f6f8;
+    }
+
+    @media only screen and (min-width: 667px) {
+.TypeCodeBlock .TypeCodeHeading {
+    position: absolute;
+    top: 2.4rem;
+    right: 2.4rem;
+}
+}
+
+.TypeCodeBlock .TypeCodeHeading {
+    font-family: Monaco,Consolas,Lucida Console,monospace;
+    font-size: 1rem;
+    color: #637381;
+    text-transform: none;
+}
+
+
+pre {
+    font-family: Andale Mono,AndaleMono,Lucida Console,monospace;
+    letter-spacing: -.1rem;
+    overflow: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.TypeCodeExample {
+    padding: .1rem;
+    color: #9c6f19;
+    font-family: Andale Mono,AndaleMono,Lucida Console,monospace;
+    overflow: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.TypeCodeExample code span{
+  display: block;
+}
+
+code {
+    margin-bottom: 1rem;
+    padding: 0;
+    border-radius: .3rem;
+    font-size: 90%;
+    line-height: 1.2rem;
+    background-color: #f4f6f8;
+    text-align: left;
+}
+
+
+
+</style>
 
       <div class="col-9 mt-4">
 
@@ -146,150 +138,107 @@
 
           <div class="p-4">
 
-          <h1 class="display-4">Colors</h1>
+          <h1 class="display-4">Typography</h1>
 
-          <h4 class="pb-4">Solidarity’s primary color palette is clean and straightforward. These three colors, along with their tints, work consistently well on paper and on screen.</h4>
+          <h4 class="pb-4"><strong><em>Solidarity</em></strong> provides a constrained, purposeful set of typographic styles. These styles map as much as possible to functional roles so you know when each can be used.</h4>
+
+          <h6>By consistently tying typographic styles to appropriate functions in the interface, we create a clear visual pattern for comrads to follow while they’re interacting with our organization.</h6>
 
           <hr/>
 
 
-          <h4 class="mt-4 pt-4">Color Pallets</h4>
+          <h4 class="mt-4 pt-4">Font</h4>
 
-          <div class="ColorPaletteWrapper mt-4">
-
-          <div class="col-6">
-
-          <div class="ColorPalette">
-            <div class="ColorPaletteSwatches">
-              <div class="ColorPaletteShade hasDarkText" style="background-color: rgb(249, 250, 251);">
-                <span class="ColorPaletteLabel">Lightest</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#F9FAFB</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade hasDarkText" style="background-color: #F4F6F8;">
-                <span class="ColorPaletteLabel">Lighter</span>
-                  <div class="ColorPaletteValue">
-                      <span class="ColorPaletteHex" style="float: right">#F4F6F8</span>
-                  </div>
-              </div>
-
-              <div class="ColorPaletteShade isExpanded hasDarkText" style="background-color: #DFE4E8;">
-                <span class="ColorPaletteLabel">Grey</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#DFE4E8</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade hasDarkText" style="background-color: #C4CDD5;">
-                <span class="ColorPaletteLabel">Darker</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex" style="float: right">#C4CDD5</span>
-                  </div>
-                </div>
-
-                <div class="ColorPaletteShade hasDarkText" style="background-color: #9FA7AF;">
-                <span class="ColorPaletteLabel">Darkest</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex" style="float: right">#9FA7AF</span>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6">
-        
-          <div class="ColorPalette">
-            <div class="ColorPaletteSwatches">
-              <div class="ColorPaletteShade" style="background-color: #BEB9B9;;">
-                <span class="ColorPaletteLabel">Lightest</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#BEB9B9</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade" style="background-color: #8D8787;">
-                <span class="ColorPaletteLabel">Lighter</span>
-                  <div class="ColorPaletteValue">
-                      <span class="ColorPaletteHex">#8D8787</span>
-                  </div>
-              </div>
-
-              <div class="ColorPaletteShade isExpanded" style="background-color: #645D5D;">
-                <span class="ColorPaletteLabel">Dark Grey</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex">#645D5D</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade" style="background-color: #423C3C;">
-                <span class="ColorPaletteLabel">Darker</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex">#423C3C</span>
-                  </div>
-                </div>
-
-                <div class="ColorPaletteShade" style="background-color: #231E1F;">
-                <span class="ColorPaletteLabel">Darkest</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex">#231E1F</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="ColorPaletteWrapper mt-4">
-
-          <div class="col-6">
-
-          <div class="ColorPalette">
-            <div class="ColorPaletteSwatches">
-              <div class="ColorPaletteShade hasDarkText" style="background-color: #FAD2D4;">
-                <span class="ColorPaletteLabel">Lightest</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#FAD2D4</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade hasDarkText" style="background-color: #F2A3A8;">
-                <span class="ColorPaletteLabel">Lighter</span>
-                  <div class="ColorPaletteValue">
-                      <span class="ColorPaletteHex" style="float: right">#F2A3A8</span>
-                  </div>
-              </div>
-
-              <div class="ColorPaletteShade isExpanded hasDarkText" style="background-color: #F27A80;">
-                <span class="ColorPaletteLabel">Red</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#F27A80</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade" style="background-color: #EA4D56;">
-                <span class="ColorPaletteLabel">Dark</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex" style="float: right">#EA4D56</span>
-                  </div>
-                </div>
-
-                <div class="ColorPaletteShade" style="background-color: #E92330;">
-                <span class="ColorPaletteLabel">Darker</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex" style="float: right">#E92330</span>
-                  </div>
-                </div>
-
+          <div class="TypeScaleExample mt-4">
+            <h1 class="text-style-display-x-large">Bernie would have won.</h1>
+            <div class="TypeCodeBlock">
+              <h3 class="TypeCodeHeading">Display x-large</h3>
+              <div class="TypeCodeExample">
+                <code>
+                  <span class="hljs-attribute text-left">font-size: 42px;</span>
+                  <span class="hljs-attribute text-left">line-height: 44px;</span>
+                  <span class="hljs-attribute text-left">font-weight: 500;</span>
+                  <span class="hljs-attribute text-left">letter-spacing: auto;</span>
+                </code>
               </div>
             </div>
           </div>
 
 
+          <div class="TypeScaleExample mt-4">
+            <h2 class="text-style-display-x-large">Bernie would have won.</h2>
+            <div class="TypeCodeBlock">
+              <h3 class="TypeCodeHeading">Display large</h3>
+              <div class="TypeCodeExample">
+                <code>
+                  <span class="hljs-attribute text-left">font-size: 42px;</span>
+                  <span class="hljs-attribute text-left">line-height: 44px;</span>
+                  <span class="hljs-attribute text-left">font-weight: 500;</span>
+                  <span class="hljs-attribute text-left">letter-spacing: auto;</span>
+                </code>
+              </div>
+            </div>
+          </div>
+
+          <div class="TypeScaleExample mt-4">
+            <h3 class="text-style-display-x-large">Bernie would have won.</h3>
+            <div class="TypeCodeBlock">
+              <h3 class="TypeCodeHeading">Display medium</h3>
+              <div class="TypeCodeExample">
+                <code>
+                  <span class="hljs-attribute text-left">font-size: 42px;</span>
+                  <span class="hljs-attribute text-left">line-height: 44px;</span>
+                  <span class="hljs-attribute text-left">font-weight: 500;</span>
+                  <span class="hljs-attribute text-left">letter-spacing: auto;</span>
+                </code>
+              </div>
+            </div>
+          </div>
+
+          <div class="TypeScaleExample mt-4">
+            <h4 class="text-style-display-x-large">Bernie would have won.</h4>
+            <div class="TypeCodeBlock">
+              <h3 class="TypeCodeHeading">Display small</h3>
+              <div class="TypeCodeExample">
+                <code>
+                  <span class="hljs-attribute text-left">font-size: 42px;</span>
+                  <span class="hljs-attribute text-left">line-height: 44px;</span>
+                  <span class="hljs-attribute text-left">font-weight: 500;</span>
+                  <span class="hljs-attribute text-left">letter-spacing: auto;</span>
+                </code>
+              </div>
+            </div>
+          </div>
+
+          <div class="TypeScaleExample mt-4">
+            <h5 class="text-style-display-x-large">Bernie would have won.</h5>
+            <div class="TypeCodeBlock">
+              <h3 class="TypeCodeHeading">Display x-small</h3>
+              <div class="TypeCodeExample">
+                <code>
+                  <span class="hljs-attribute text-left">font-size: 42px;</span>
+                  <span class="hljs-attribute text-left">line-height: 44px;</span>
+                  <span class="hljs-attribute text-left">font-weight: 500;</span>
+                  <span class="hljs-attribute text-left">letter-spacing: auto;</span>
+                </code>
+              </div>
+            </div>
+          </div>
+
+          <div class="TypeScaleExample mt-4">
+            <h6 class="text-style-display-x-large">Bernie would have won.</h6>
+            <div class="TypeCodeBlock">
+              <h3 class="TypeCodeHeading">Display ultra small-small</h3>
+              <div class="TypeCodeExample">
+                <code>
+                  <span class="hljs-attribute text-left">font-size: 42px;</span>
+                  <span class="hljs-attribute text-left">line-height: 44px;</span>
+                  <span class="hljs-attribute text-left">font-weight: 500;</span>
+                  <span class="hljs-attribute text-left">letter-spacing: auto;</span>
+                </code>
+              </div>
+            </div>
+          </div>
           
         </div>
         
