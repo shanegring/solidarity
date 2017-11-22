@@ -137,6 +137,12 @@ box-shadow: 0 0 0 2px rgba(73,161,184,.25)
    opacity: .8;
 }
 
+.btn-danger {
+    color: #fff;
+    background-color: #D0021B;
+    border-color: #D0021B;
+}
+
 
 
 /* Basic */
