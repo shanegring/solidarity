@@ -16,88 +16,14 @@
     <!-- Override CSS -->
     <link rel="stylesheet" href="root.css">
     <link rel="stylesheet" href="type.css">
+    <link rel="stylesheet" href="color-palette.css">
   
   </head>
 
 
-  <style>
-
-
-
-  .ColorPaletteWrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: -3.2rem;
-    margin-left: -3.2rem;
-}
-
-  .ColorPalette {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 25rem;
-    flex: 1 1 25rem;
-    padding-top: 3.2rem;
-    padding-left: 3.2rem;
-}
-
-.ColorPaletteShade {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 3rem;
-    padding-right: 1.6rem;
-    padding-left: 1.6rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #f4f6f8;
-}
-
-
-.ColorPaletteLabel {
-    display: block;
-}
-
-.ColorPaletteHex, .ColorPaletteScss {
-    display: block;
-    white-space: nowrap;
-    float: right;
-}
-
-.ColorPaletteShade.hasDarkText {
-    color: #161d25;
-}
-
-.ColorPaletteLabel, .ColorPaletteValue {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 50%;
-    flex: 1 1 50%;
-}
-
-.ColorPaletteShade.isExpanded {
-    height: 7.8rem;
-}
-
-.ColorPaletteShade:first-child {
-    border-top-left-radius: .6rem;
-    border-top-right-radius: .6rem;
-}
-
-.ColorPaletteShade:last-child {
-    border-bottom-left-radius: .6rem;
-    border-bottom-right-radius: .6rem;
-}
-
-</style>
-
-
   <body style="background-color:#F1F1F1">
 
-      <div class="row ml-4">
+    <div class="row ml-4">
       <div class="col-2 mt-4 ml-4">
         <div style="position: fixed">
         <div style="display: block; margin: auto; text-align: center; padding-top: 50px">     
@@ -122,10 +48,10 @@
             <a class="nav-link active" href="colors.html">Colors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="dsa-typography.html">Typography</a>
+            <a class="nav-link" href="typography.html">Typography</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="decks.html">Decks</a>
+            <a class="nav-link active" href="decks.html">Decks</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="logos.html">Logos and Icons</a>
@@ -143,6 +69,8 @@
       </div>
     </div>
 
+
+
       <div class="col-9 mt-4">
 
         <div class="m-4 p-4" style="background: #FFFFFF; box-shadow: 0 2px 30px 19px rgba(207,207,207,0.50); border-radius: 8px; min-height: 1000px">
@@ -151,146 +79,76 @@
 
           <div class="p-4">
 
-          <h1 class="display-4 mb-4">Colors</h1>
+          <h1 class="display-4 mb-4">Logos</h1>
 
-          <h4 class="mb-4">Solidarity’s primary color palette is clean and straightforward. These three colors, along with their tints, work consistently well on paper and on screen.</h4>
+          <h4 class="mb-4">To ensure DSA a consistent visual identity across all platforms please include our logo whenever possible in all the graphics and document you create.</h4>
+
+          <h4 class="mb-4">Please don't warp, stretch or change the color of the logo.</h4>
 
           <hr/>
 
 
-          <h4 class="mt-4 mb-4">Color Pallets</h4>
+          <h4 class="mt-4 pt-4 mb-4"><strong>Square National Logo</strong></h4>
 
-          <div class="ColorPaletteWrapper mt-4">
+          <div>
+          <img src="img/dsa-national-square-red.png" class="img-responsive mb-4" style="width: 200px">
+          </div>
 
-          <div class="col-6">
-
-          <div class="ColorPalette">
-            <div class="ColorPaletteSwatches">
-              <div class="ColorPaletteShade hasDarkText" style="background-color: rgb(249, 250, 251);">
-                <span class="ColorPaletteLabel">Lightest</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#F9FAFB</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade hasDarkText" style="background-color: #F4F6F8;">
-                <span class="ColorPaletteLabel">Lighter</span>
-                  <div class="ColorPaletteValue">
-                      <span class="ColorPaletteHex" style="float: right">#F4F6F8</span>
-                  </div>
-              </div>
-
-              <div class="ColorPaletteShade isExpanded hasDarkText" style="background-color: #DFE4E8;">
-                <span class="ColorPaletteLabel">Grey</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#DFE4E8</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade hasDarkText" style="background-color: #C4CDD5;">
-                <span class="ColorPaletteLabel">Darker</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex" style="float: right">#C4CDD5</span>
-                  </div>
-                </div>
-
-                <div class="ColorPaletteShade hasDarkText" style="background-color: #9FA7AF;">
-                <span class="ColorPaletteLabel">Darkest</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex" style="float: right">#9FA7AF</span>
-                  </div>
-                </div>
-
-              </div>
+          <div class="btn-group mb-4">
+            <button type="button" class="btn btn-secondary btn-md">Download</button>
+            <button type="button" class="btn btn-secondary btn-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Download image</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">JPG</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">PNG</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">AI</a>
             </div>
           </div>
 
-          <div class="col-6">
-        
-          <div class="ColorPalette">
-            <div class="ColorPaletteSwatches">
-              <div class="ColorPaletteShade" style="background-color: #BEB9B9;;">
-                <span class="ColorPaletteLabel">Lightest</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#BEB9B9</span>
-                </div>
-              </div>
+          <hr/>
 
-              <div class="ColorPaletteShade" style="background-color: #8D8787;">
-                <span class="ColorPaletteLabel">Lighter</span>
-                  <div class="ColorPaletteValue">
-                      <span class="ColorPaletteHex">#8D8787</span>
-                  </div>
-              </div>
+          <h4 class="mt-4 pt-4 mb-4"><strong>Horizontal National Logo</strong></h4>
 
-              <div class="ColorPaletteShade isExpanded" style="background-color: #645D5D;">
-                <span class="ColorPaletteLabel">Dark Grey</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex">#645D5D</span>
-                </div>
-              </div>
+          <div>
+          <img src="img/dsa-national-horiz-red.png" class="img-responsive mb-4" style="width: 500px">
+          </div>
 
-              <div class="ColorPaletteShade" style="background-color: #423C3C;">
-                <span class="ColorPaletteLabel">Darker</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex">#423C3C</span>
-                  </div>
-                </div>
-
-                <div class="ColorPaletteShade" style="background-color: #231E1F;">
-                <span class="ColorPaletteLabel">Darkest</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex">#231E1F</span>
-                  </div>
-                </div>
-              </div>
+          <div class="btn-group mb-4">
+            <button type="button" class="btn btn-secondary btn-md">Download</button>
+            <button type="button" class="btn btn-secondary btn-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Download image</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">JPG</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">PNG</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">AI</a>
             </div>
           </div>
-        </div>
 
+          <hr/>
 
-        <div class="ColorPaletteWrapper mt-4">
+          <h4 class="mt-4 pt-4 mb-4"><strong>Pittsburgh Circle Logo</strong></h4>
 
-          <div class="col-6">
+          <div>
+          <img src="img/pgh-circle-red-logo.png" class="img-responsive mb-4" style="width: 200px">
+          </div>
 
-          <div class="ColorPalette">
-            <div class="ColorPaletteSwatches">
-              <div class="ColorPaletteShade hasDarkText" style="background-color: #FAD2D4;">
-                <span class="ColorPaletteLabel">Lightest</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#FAD2D4</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade hasDarkText" style="background-color: #F2A3A8;">
-                <span class="ColorPaletteLabel">Lighter</span>
-                  <div class="ColorPaletteValue">
-                      <span class="ColorPaletteHex" style="float: right">#F2A3A8</span>
-                  </div>
-              </div>
-
-              <div class="ColorPaletteShade isExpanded hasDarkText" style="background-color: #F27A80;">
-                <span class="ColorPaletteLabel">Red</span>
-                <div class="ColorPaletteValue">
-                  <span class="ColorPaletteHex" style="float: right">#F27A80</span>
-                </div>
-              </div>
-
-              <div class="ColorPaletteShade" style="background-color: #EA4D56;">
-                <span class="ColorPaletteLabel">Dark</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex" style="float: right">#EA4D56</span>
-                  </div>
-                </div>
-
-                <div class="ColorPaletteShade" style="background-color: #E92330;">
-                <span class="ColorPaletteLabel">Darker</span>
-                  <div class="ColorPaletteValue">
-                    <span class="ColorPaletteHex" style="float: right">#E92330</span>
-                  </div>
-                </div>
-
-              </div>
+          <div class="btn-group mb-4">
+            <button type="button" class="btn btn-secondary btn-md">Download</button>
+            <button type="button" class="btn btn-secondary btn-md dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Download image</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">JPG</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">PNG</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">AI</a>
             </div>
           </div>
 
