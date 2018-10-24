@@ -68,58 +68,14 @@ $colors: map-merge((
 ), $colors);
 
 
-$v1air:#3399cc;
-$v1water:#6C879E;
-$v1nourishment:#A6BF95;
-$v1light:#ECBA58;
-$v1comfort:#EBCDC6;
-$v1fitness:#D4C0AD;
-$v1mind:#88C5D0;
-
-$colors: () !default;
-$colors: map-merge((
-  "v1air":       $v1air,
-  "v1water":    $v1water,
-  "v1nourishment": $v1nourishment,
-  "v1light":       $v1light,
-  "v1comfort":  $v1comfort,
-  "v1fitness":  $v1fitness,
-  "v1mind":     $v1mind,
-), $colors);
-
-$v2air:#144249;
-$v2water:#07667f;
-$v2nourishment:#0b7b97;
-$v2light:#3b9db6;
-$v2movement:#91cbd3;
-$v2thermal:#a7d6ad;
-$v2sound:#63a984;
-$v2materials:#40927d;
-$v2mind:#2f6b5e;
-$v2community:#23483d;
-
-$colors: () !default;
-$colors: map-merge((
-  "air":       $v2air,
-  "water":     $v2water,
-  "nourishment":     $v2nourishment,
-  "light":       $v2light,
-  "movement":        $v2movement,
-  "thermal":     $v2thermal,
-  "sound":     $v2sound,
-  "materials":      $v2materials,
-  "mind":       $v2mind,
-  "community":       $v2community,
-), $colors);
-
 
 $default:       #F2F2F2 !default;
 $primary:       #D0021B !default;
 $secondary:     #626262 !default;
-$success:       $white !default;
-$info:          #347D90 !default;
-$warning:       $black !default;
-$danger:        #2F2F2F!default;
+$success:       #DD6D72 !default;
+$info:          #EE4B52 !default;
+$warning:       #EDC6C7 !default;
+$danger:        #F7A5A8 !default;
 $light:         $gray-500 !default;
 $dark:          $gray-900 !default;
 $darker:        darken($gray-900, 15%) !default;

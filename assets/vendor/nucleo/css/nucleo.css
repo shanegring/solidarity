@@ -6,8 +6,8 @@ License - nucleoapp.com/license/
 -------------------------------- */
 @font-face {
   font-family: 'NucleoIcons';
-  src: url('../fonts/Nucleo.eot');
-  src: url('../fonts/Nucleo.eot') format('embedded-opentype'), url('../Nucleo.woff2') format('woff2'), url('../fonts/Nucleo.woff') format('woff'), url('../fonts/Nucleo.ttf') format('truetype'), url('../fonts/Nucleo.svg') format('svg');
+  src: url('../fonts/nucleo-icons.eot');
+  src: url('../fonts/nucleo-icons.eot') format('embedded-opentype'), url('../fonts/nucleo-icons.woff2') format('woff2'), url('../fonts/nucleo-icons.woff') format('woff'), url('../fonts/nucleo-icons.ttf') format('truetype'), url('../fonts/nucleo-icons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,30 +22,6 @@ License - nucleoapp.com/license/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
-/*------------------------
-  change color
--------------------------*/
-
-.ni-white {
-  color: #fff;
-}
-
-.ni-dark-grey {
-  color: #333333;
-}
-
-.ni-blue {
-  color: #49A1B8;
-}
-
-.ni-black {
-  color: #000;
-}
-
-
-
 /*------------------------
   change icon size
 -------------------------*/
@@ -70,22 +46,13 @@ License - nucleoapp.com/license/
 /*----------------------------------
   add a square/circle background
 -----------------------------------*/
-.ni.square-g,
-.ni.circle-g {
+.ni.square,
+.ni.circle {
   padding: 0.33333333em;
   vertical-align: -16%;
   background-color: #eee;
 }
-
-.ni.square-w,
-.ni.circle-w {
-  padding: 0.33333333em;
-  vertical-align: -16%;
-  background-color: #fff;
-}
-
-.ni.circle-g,
-.ni.circle-w {
+.ni.circle {
   border-radius: 50%;
 }
 /*------------------------
@@ -201,120 +168,405 @@ License - nucleoapp.com/license/
     font icons
 -------------------------*/
 
-.ni-pin-3::before {
-  content: "\ea02";
+.ni-active-40::before {
+    content: "\ea02";
 }
 
-.ni-wireframe::before {
-  content: "\ea03";
+.ni-air-baloon::before {
+    content: "\ea03";
 }
 
-.ni-check::before {
-  content: "\ea04";
+.ni-album-2::before {
+    content: "\ea04";
 }
 
-.ni-currency-exchange::before {
-  content: "\ea05";
+.ni-align-center::before {
+    content: "\ea05";
 }
 
-.ni-users-ww::before {
-  content: "\ea06";
+.ni-align-left-2::before {
+    content: "\ea06";
 }
 
-.ni-single-copy-04::before {
-  content: "\ea07";
+.ni-ambulance::before {
+    content: "\ea07";
 }
 
-.ni-chart-pie-36::before {
-  content: "\ea08";
-}
-
-.ni-flash-21::before {
-  content: "\ea09";
-}
-
-.ni-countdown-34::before {
-  content: "\ea0a";
-}
-
-.ni-hotel::before {
-  content: "\ea0b";
-}
-
-.ni-switches::before {
-  content: "\ea0c";
-}
-
-.ni-letter::before {
-  content: "\ea0d";
-}
-
-.ni-edit-76::before {
-  content: "\ea0e";
+.ni-app::before {
+    content: "\ea08";
 }
 
 .ni-archive-2::before {
-  content: "\ea0f";
+    content: "\ea09";
 }
 
-.ni-zoom::before {
-  content: "\ea10";
+.ni-atom::before {
+    content: "\ea0a";
 }
 
-.ni-setup-preferences::before {
-  content: "\ea11";
+.ni-badge::before {
+    content: "\ea0b";
 }
 
-.ni-support::before {
-  content: "\ea12";
+.ni-bag-17::before {
+    content: "\ea0c";
 }
 
-.ni-folder-upload::before {
-  content: "\ea13";
+.ni-basket::before {
+    content: "\ea0d";
 }
 
-.ni-drag::before {
-  content: "\ea14";
+.ni-bell-55::before {
+    content: "\ea0e";
 }
 
-.ni-filter-check::before {
-  content: "\ea15";
+.ni-bold-down::before {
+    content: "\ea0f";
 }
 
-.ni-dashboard-30::before {
-  content: "\ea16";
+.ni-bold-left::before {
+    content: "\ea10";
 }
 
-.ni-hotel-bell::before {
-  content: "\ea17";
+.ni-bold-right::before {
+    content: "\ea11";
 }
 
-.ni-scale::before {
-  content: "\ea18";
+.ni-bold-up::before {
+    content: "\ea12";
 }
 
-.ni-measure-big::before {
-  content: "\ea19";
+.ni-bold::before {
+    content: "\ea13";
 }
 
-.ni-remove-part::before {
-  content: "\ea1a";
+.ni-book-bookmark::before {
+    content: "\ea14";
 }
 
-.ni-tail-left::before {
-  content: "\ea1b";
+.ni-books::before {
+    content: "\ea15";
 }
 
-.ni-chat-46-2::before {
+.ni-box-2::before {
+    content: "\ea16";
+}
+
+.ni-briefcase-24::before {
+    content: "\ea17";
+}
+
+.ni-building::before {
+    content: "\ea18";
+}
+
+.ni-bulb-61::before {
+    content: "\ea19";
+}
+
+.ni-bullet-list-67::before {
+    content: "\ea1a";
+}
+
+.ni-bus-front-12::before {
+    content: "\ea1b";
+}
+
+.ni-button-pause::before {
+    content: "\ea1c";
+}
+
+.ni-button-play::before {
+    content: "\ea1d";
+}
+
+.ni-button-power::before {
+    content: "\ea1e";
+}
+
+.ni-calendar-grid-58::before {
     content: "\ea1f";
 }
 
-.ni-users-wm::before {
+.ni-camera-compact::before {
     content: "\ea20";
 }
 
-.ni-pin-copy::before {
+.ni-caps-small::before {
     content: "\ea21";
 }
+
+.ni-cart::before {
+    content: "\ea22";
+}
+
+.ni-chart-bar-32::before {
+    content: "\ea23";
+}
+
+.ni-chart-pie-35::before {
+    content: "\ea24";
+}
+
+.ni-chat-round::before {
+    content: "\ea25";
+}
+
+.ni-check-bold::before {
+    content: "\ea26";
+}
+
+.ni-circle-08::before {
+    content: "\ea27";
+}
+
+.ni-cloud-download-95::before {
+    content: "\ea28";
+}
+
+.ni-cloud-upload-96::before {
+    content: "\ea29";
+}
+
+.ni-compass-04::before {
+    content: "\ea2a";
+}
+
+.ni-controller::before {
+    content: "\ea2b";
+}
+
+.ni-credit-card::before {
+    content: "\ea2c";
+}
+
+.ni-curved-next::before {
+    content: "\ea2d";
+}
+
+.ni-delivery-fast::before {
+    content: "\ea2e";
+}
+
+.ni-diamond::before {
+    content: "\ea2f";
+}
+
+.ni-email-83::before {
+    content: "\ea30";
+}
+
+.ni-fat-add::before {
+    content: "\ea31";
+}
+
+.ni-fat-delete::before {
+    content: "\ea32";
+}
+
+.ni-fat-remove::before {
+    content: "\ea33";
+}
+
+.ni-favourite-28::before {
+    content: "\ea34";
+}
+
+.ni-folder-17::before {
+    content: "\ea35";
+}
+
+.ni-glasses-2::before {
+    content: "\ea36";
+}
+
+.ni-hat-3::before {
+    content: "\ea37";
+}
+
+.ni-headphones::before {
+    content: "\ea38";
+}
+
+.ni-html5::before {
+    content: "\ea39";
+}
+
+.ni-istanbul::before {
+    content: "\ea3a";
+}
+
+.ni-key-25::before {
+    content: "\ea3b";
+}
+
+.ni-laptop::before {
+    content: "\ea3c";
+}
+
+.ni-like-2::before {
+    content: "\ea3d";
+}
+
+.ni-lock-circle-open::before {
+    content: "\ea3e";
+}
+
+.ni-map-big::before {
+    content: "\ea3f";
+}
+
+.ni-mobile-button::before {
+    content: "\ea40";
+}
+
+.ni-money-coins::before {
+    content: "\ea41";
+}
+
+.ni-note-03::before {
+    content: "\ea42";
+}
+
+.ni-notification-70::before {
+    content: "\ea43";
+}
+
+.ni-palette::before {
+    content: "\ea44";
+}
+
+.ni-paper-diploma::before {
+    content: "\ea45";
+}
+
+.ni-pin-3::before {
+    content: "\ea46";
+}
+
+.ni-planet::before {
+    content: "\ea47";
+}
+
+.ni-ruler-pencil::before {
+    content: "\ea48";
+}
+
+.ni-satisfied::before {
+    content: "\ea49";
+}
+
+.ni-scissors::before {
+    content: "\ea4a";
+}
+
+.ni-send::before {
+    content: "\ea4b";
+}
+
+.ni-settings-gear-65::before {
+    content: "\ea4c";
+}
+
+.ni-settings::before {
+    content: "\ea4d";
+}
+
+.ni-single-02::before {
+    content: "\ea4e";
+}
+
+.ni-single-copy-04::before {
+    content: "\ea4f";
+}
+
+.ni-sound-wave::before {
+    content: "\ea50";
+}
+
+.ni-spaceship::before {
+    content: "\ea51";
+}
+
+.ni-square-pin::before {
+    content: "\ea52";
+}
+
+.ni-support-16::before {
+    content: "\ea53";
+}
+
+.ni-tablet-button::before {
+    content: "\ea54";
+}
+
+.ni-tag::before {
+    content: "\ea55";
+}
+
+.ni-tie-bow::before {
+    content: "\ea56";
+}
+
+.ni-time-alarm::before {
+    content: "\ea57";
+}
+
+.ni-trophy::before {
+    content: "\ea58";
+}
+
+.ni-tv-2::before {
+    content: "\ea59";
+}
+
+.ni-umbrella-13::before {
+    content: "\ea5a";
+}
+
+.ni-user-run::before {
+    content: "\ea5b";
+}
+
+.ni-vector::before {
+    content: "\ea5c";
+}
+
+.ni-watch-time::before {
+    content: "\ea5d";
+}
+
+.ni-world::before {
+    content: "\ea5e";
+}
+
+.ni-zoom-split-in::before {
+    content: "\ea5f";
+}
+
+.ni-collection::before {
+    content: "\ea60";
+}
+
+.ni-image::before {
+    content: "\ea61";
+}
+
+.ni-shop::before {
+    content: "\ea62";
+}
+
+.ni-ungroup::before {
+    content: "\ea63";
+}
+
+.ni-world-2::before {
+    content: "\ea64";
+}
+
+.ni-ui-04::before {
+    content: "\ea65";
+}
+
 
 /* all icon font classes list here */
