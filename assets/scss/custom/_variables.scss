@@ -130,9 +130,9 @@ $shape-colors: map-merge((
 
 $shapes-primary-colors: () !default;
 $shapes-primary-colors: map-merge((
-  "step-1-gradient-bg":         #281483,
-  "step-2-gradient-bg":         #8f6ed5,
-  "step-3-gradient-bg":         #d782d9,
+  "step-1-gradient-bg":         #000,
+  "step-2-gradient-bg":         #ee4b52,
+  "step-3-gradient-bg":         #d0021b,
   "span-1-bg":                  #53f,
   "span-2-bg":                  #4553ff,
   "span-3-bg":                  #4f40ff,
@@ -312,8 +312,8 @@ $transition-collapse:         height .35s ease !default;
 
 // Fonts
 
-$font-family-base: 'museo-sans', sans-serif !default;
-$font-family-alt: 'museo-sans', sans-serif !default;
+$font-family-base: 'Open Sans', sans-serif !default;
+$font-family-alt: 'Open Sans', sans-serif !default;
 
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-xl:                ($font-size-base * 1.5);

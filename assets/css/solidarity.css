@@ -92,7 +92,7 @@ section
 
 body
 {
-    font-family: 'museo-sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -7237,7 +7237,7 @@ button.close
 
 .tooltip
 {
-    font-family: 'museo-sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: .875rem;
     font-weight: 400;
     font-style: normal;
@@ -7384,7 +7384,7 @@ button.close
 
 .popover
 {
-    font-family: 'museo-sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: .875rem;
     font-weight: 400;
     font-style: normal;
@@ -16296,7 +16296,7 @@ textarea[resize='horizontal']
 
 .navbar-nav .nav-link
 {
-    font-family: 'museo-sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: .9rem;
     font-weight: 400;
 
@@ -17368,7 +17368,7 @@ textarea[resize='horizontal']
 }
 .section-shaped .shape-primary
 {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(150deg, #000 15%, #ee4b52 70%, #d0021b 94%);
 }
 .section-shaped .shape-primary :nth-child(1)
 {
@@ -17586,7 +17586,7 @@ textarea[resize='horizontal']
 }
 .section-shaped .shape-style-1.shape-primary
 {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(150deg, #000 15%, #ee4b52 70%, #d0021b 94%);
 }
 .section-shaped .shape-style-1.shape-default
 {

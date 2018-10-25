@@ -67,7 +67,7 @@ gulp.task('scss', function() {
 
 gulp.task('minify:css', function() {
   return gulp.src([
-        paths.src.css + '/argon.css'
+        paths.src.css + '/solidarity.css'
     ])
     .pipe(cleanCss())
     .pipe(rename({ suffix: '.min' }))
@@ -78,7 +78,7 @@ gulp.task('minify:css', function() {
 
 gulp.task('minify:js', function(cb) {
     return gulp.src([
-            paths.src.base + '/assets/js/argon.js'
+            paths.src.base + '/assets/js/solidarity.js'
         ])
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
@@ -113,7 +113,7 @@ gulp.task('clean:dist', function() {
 
 gulp.task('copy:css', function() {
     return gulp.src([
-        paths.src.base + '/assets/css/argon.css'
+        paths.src.base + '/assets/css/solidarity.css'
     ])
     .pipe(gulp.dest(paths.dist.base + '/css'))
 });
@@ -122,7 +122,7 @@ gulp.task('copy:css', function() {
 
 gulp.task('copy:js', function() {
     return gulp.src([
-        paths.src.base + '/assets/js/argon.js'
+        paths.src.base + '/assets/js/solidarity.js'
     ])
     .pipe(gulp.dest(paths.dist.base + '/js'))
 });
