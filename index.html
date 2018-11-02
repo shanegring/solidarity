@@ -25,12 +25,25 @@
 </head>
 
 <body>
+
+<style>
+
+.navbar-dark .navbar-brand {
+    color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+}
+
+</style>
+
   <header class="header-global">
-    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-dark headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="./index.html">
-          <img src="./assets/img/brand/toaster.svg">
-          <span>Bread</span>
+          <img style="width: 50px; z-index: 1" src="./assets/img/brand/flower-07.svg">
+          <span>DOCS</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -53,10 +66,12 @@
           </div>
           <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+              <a href="getting-started/overview.html" class="nav-link" data-toggle="dropdown" href="#" role="button">
                 <i class="ni ni-ui-04 d-lg-none"></i>
                 <span class="nav-link-inner--text">Components</span>
               </a>
+
+
               <div class="dropdown-menu dropdown-menu-xl">
                 <div class="dropdown-menu-inner">
                   <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html" class="media d-flex align-items-center">
@@ -129,10 +144,7 @@
             </li>
             <li class="nav-item d-none d-lg-block ml-lg-4">
               <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-neutral btn-icon">
-                <span class="btn-inner--icon">
-                  <i class="fa fa-cloud-download mr-2"></i>
-                </span>
-                <span class="nav-link-inner--text">Download</span>
+                <span class="nav-link-inner--text">Join DSA</span>
               </a>
             </li>
           </ul>
@@ -143,8 +155,8 @@
   <main>
     <div class="position-relative">
       <!-- Hero for FREE version -->
-      <section class="section section-lg section-hero section-shaped">
-        <!-- Background circles -->
+      <section class="section section-lg section-hero section-shaped" style="background: transparent;">
+        <!-- Background circles 
         <div class="shape shape-style-1 shape-primary">
           <span class="span-150"></span>
           <span class="span-50"></span>
@@ -157,26 +169,19 @@
           <span class="span-50"></span>
           <span class="span-100"></span>
         </div>
-        <div class="container shape-container d-flex align-items-center py-lg">
+        -->
+        <div class="container shape-container d-flex align-items-center py-sm">
           <div class="col px-0">
             <div class="row align-items-center justify-content-center">
-              <div class="col-lg-6 text-center">
-                <img src="./assets/img/brand/toaster.svg" style="width: 200px;" class="img-fluid">
-                <p class="lead text-white">Bread: an open source, public-use design langauge system for the struggle ahead.</p>
+              <div class="col-lg-10 text-center">
+                <img src="./assets/img/brand/flower-07.svg" style="width: 150px; z-index: -1" class="img-fluid">
+                <h1 class="text-black display-1 mt-4">Solidarity</h1>
+                <p class="lead text-black">an open source, public-use design langauge system for the struggle ahead.</p>
                 <div class="btn-wrapper mt-5">
                   <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
                     <span class="btn-inner--text">Download HTML</span>
                   </a>
-                  <a href="https://github.com/creativetimofficial/argon-design-system" class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0" target="_blank">
-                    <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
-                    <span class="btn-inner--text">
-                      <span class="text-warning">Star us</span> on Github</span>
-                  </a>
-                </div>
-                <div class="mt-5">
-                  <small class="text-white font-weight-bold mb-0 mr-2">*proudly coded by</small>
-                  <img src="./assets/img/brand/creativetim-white-slim.png" style="height: 28px;">
                 </div>
               </div>
             </div>
@@ -1089,7 +1094,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Heading 1</small>
           </div>
           <div class="col-sm-9">
-            <h1 class="mb-0">Arise ye workers from your slumbers</h1>
+            <h1 class="mb-0">Solidarity forever, solidarity forever!</h1>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1097,7 +1102,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Heading 2</small>
           </div>
           <div class="col-sm-9">
-            <h2 class="mb-0">Arise ye prisoners of want</h2>
+            <h2 class="mb-0">Solidarity forever, solidarity forever!</h2>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1105,7 +1110,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Heading 3</small>
           </div>
           <div class="col-sm-9">
-            <h3 class="mb-0">For reason in revolt now thunders</h3>
+            <h3 class="mb-0">Solidarity forever, solidarity forever!</h3>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1113,7 +1118,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Heading 4</small>
           </div>
           <div class="col-sm-9">
-            <h4 class="mb-0">And at last ends the age of cant.</h4>
+            <h4 class="mb-0">Solidarity forever, solidarity forever!</h4>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1121,7 +1126,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Heading 5</small>
           </div>
           <div class="col-sm-9">
-            <h5 class="mb-0">Away with all your superstitions</h5>
+            <h5 class="mb-0">Solidarity forever, solidarity forever!</h5>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1129,7 +1134,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Heading 6</small>
           </div>
           <div class="col-sm-9">
-            <h6 class="mb-0">Argon Design System </h6>
+            <h6 class="mb-0">Solidarity forever, solidarity forever!</h6>
           </div>
         </div>
         <!-- Display titles -->
@@ -1139,7 +1144,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Display 1</small>
           </div>
           <div class="col-sm-9">
-            <h1 class="display-1 mb-0">Servile masses arise, arise</h1>
+            <h1 class="display-1 mb-0">Solidarity forever!</h1>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1147,7 +1152,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Display 2</small>
           </div>
           <div class="col-sm-9">
-            <h2 class="display-2 mb-0">We’ll change henceforth the old tradition</h2>
+            <h2 class="display-2 mb-0">Solidarity forever!</h2>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1155,7 +1160,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Display 3</small>
           </div>
           <div class="col-sm-9">
-            <h3 class="display-3 mb-0">And spurn the dust to win the prize.</h3>
+            <h3 class="display-3 mb-0">Solidarity forever!</h3>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1163,7 +1168,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Display 4</small>
           </div>
           <div class="col-sm-9">
-            <h4 class="display-4 mb-0">Solidarity forever, solidarity forever!</h4>
+            <h4 class="display-4 mb-0">Solidarity forever!</h4>
           </div>
         </div>
         <!-- Specialized titles -->
@@ -1173,7 +1178,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Heading</small>
           </div>
           <div class="col-sm-9">
-            <h3 class="heading mb-0">No more deluded by reaction</h3>
+            <h3 class="heading mb-0">Solidarity forever, solidarity forever!</h3>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1181,17 +1186,16 @@
             <small class="text-uppercase text-muted font-weight-bold">Heading title</small>
           </div>
           <div class="col-sm-9">
-            <h3 class="heading-title text-warning mb-0">On tyrants only we’ll make war</h3>
+            <h3 class="heading-title text-warning mb-0">Solidarity forever, solidarity forever!</h3>
           </div>
         </div>
         <div class="row py-3 align-items-center">
           <div class="col-sm-3">
-            <small class="text-uppercase text-muted font-weight-bold">Heading seaction</small>
+            <small class="text-uppercase text-muted font-weight-bold">Heading section</small>
           </div>
           <div class="col-sm-9">
             <div>
-              <h2 class="display-3">Header with small subtitle </h2>
-              <p class="lead text-muted">The soldiers too will take strike action, They’ll break ranks and fight no more, And if those cannibals keep trying</p>
+              <p class="lead text-muted">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
             </div>
           </div>
         </div>
@@ -1202,7 +1206,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Paragraph</small>
           </div>
           <div class="col-sm-9">
-            <p>To sacrifice us to their pride, They soon shall hear the bullets flying, We’ll shoot the generals on our own side.</p>
+            <p>The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1210,7 +1214,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Lead text</small>
           </div>
           <div class="col-sm-9">
-            <p class="lead">No saviour from on high delivers, No faith have we in prince or peer, Our own right hand the chains must shiver</p>
+            <p class="lead">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1219,9 +1223,9 @@
           </div>
           <div class="col-sm-9">
             <blockquote class="blockquote">
-              <p class="mb-0">Chains of hatred, greed and fear, E’er the thieves will out with their booty</p>
-              <footer class="blockquote-footer">Someone famous in
-                <cite title="Source Title">Source Title</cite>
+              <p class="mb-0">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
+              <footer class="blockquote-footer">Karl Marx in
+                <cite title="Source Title">The Communist Manifesto</cite>
               </footer>
             </blockquote>
           </div>
@@ -1231,7 +1235,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Muted text</small>
           </div>
           <div class="col-sm-9">
-            <p class="text-muted mb-0">And give to all a happier lot. Each at the forge must do their duty...</p>
+            <p class="text-muted mb-0">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1239,7 +1243,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Primary text</small>
           </div>
           <div class="col-sm-9">
-            <p class="text-primary">And we’ll strike while the iron is hot....</p>
+            <p class="text-primary">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1247,7 +1251,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Info text</small>
           </div>
           <div class="col-sm-9">
-            <p class="text-info mb-0">Solidary forever, solidary forever</p>
+            <p class="text-info mb-0">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1255,7 +1259,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Success text</small>
           </div>
           <div class="col-sm-9">
-            <p class="text-success mb-0">Solidary forever, solidary forever</p>
+            <p class="text-success mb-0">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1263,7 +1267,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Warning text</small>
           </div>
           <div class="col-sm-9">
-            <p class="text-warning mb-0">Solidary forever, solidary forever</p>
+            <p class="text-warning mb-0">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
           </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -1271,7 +1275,7 @@
             <small class="text-uppercase text-muted font-weight-bold">Danger text</small>
           </div>
           <div class="col-sm-9">
-            <p class="text-danger mb-0">Solidary forever, solidary forever</p>
+            <p class="text-danger mb-0">The proletarians have nothing to lose but their chains. They have a world to win. Workingmen of all countries, unite!</p>
           </div>
         </div>
         <!-- Images -->
@@ -1476,257 +1480,8 @@
         </div>
       </div>
     </section>
-    <section class="section section-shaped">
-      <div class="shape shape-style-1 shape-default">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="container py-md">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-lg-5 mb-5 mb-lg-0">
-            <h1 class="text-white font-weight-light">Bootstrap carousel</h1>
-            <p class="lead text-white mt-4">Argon Design System comes with four pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
-            <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html" class="btn btn-white mt-4">See all components</a>
-          </div>
-          <div class="col-lg-6 mb-lg-auto">
-            <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
-              <div id="carousel_example" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel_example" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel_example" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="img-fluid" src="./assets/img/theme/img-1-1200x1000.jpg" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="./assets/img/theme/img-2-1200x1000.jpg" alt="Second slide">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carousel_example" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel_example" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- SVG separator -->
-      <div class="separator separator-bottom separator-skew">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-    </section>
-    <section class="section section-lg section-nucleo-icons pb-250">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2 class="display-3">Nucleo Icons</h2>
-            <p class="lead">
-              The official package contains over 21.000 icons which are looking great in combination with Argon Design System. Make sure you check all of them and use those that you like the most.
-            </p>
-            <div class="btn-wrapper">
-              <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/icons.html" class="btn btn-primary">View demo icons</a>
-              <a href="https://nucleoapp.com/?ref=1712" target="_blank" class="btn btn-default mt-3 mt-md-0">View all icons</a>
-            </div>
-          </div>
-        </div>
-        <div class="blur--hover">
-          <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/icons.html">
-            <div class="icons-container blur-item mt-5" data-toggle="on-screen">
-              <!-- Center -->
-              <i class="icon ni ni-diamond"></i>
-              <!-- Right 1 -->
-              <i class="icon icon-sm ni ni-album-2"></i>
-              <i class="icon icon-sm ni ni-app"></i>
-              <i class="icon icon-sm ni ni-atom"></i>
-              <!-- Right 2 -->
-              <i class="icon ni ni-bag-17"></i>
-              <i class="icon ni ni-bell-55"></i>
-              <i class="icon ni ni-credit-card"></i>
-              <!-- Left 1 -->
-              <i class="icon icon-sm ni ni-briefcase-24"></i>
-              <i class="icon icon-sm ni ni-building"></i>
-              <i class="icon icon-sm ni ni-button-play"></i>
-              <!-- Left 2 -->
-              <i class="icon ni ni-calendar-grid-58"></i>
-              <i class="icon ni ni-camera-compact"></i>
-              <i class="icon ni ni-chart-bar-32"></i>
-            </div>
-            <span class="blur-hidden h5 text-success">Eplore all the 21.000+ Nucleo Icons</span>
-          </a>
-        </div>
-      </div>
-    </section>
-    <section class="section section-lg section-shaped">
-      <div class="shape shape-style-1 shape-default">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="container py-md">
-        <div class="row row-grid justify-content-between align-items-center">
-          <div class="col-lg-6">
-            <h3 class="display-3 text-white">A beautiful Design System
-              <span class="text-white">completed with examples</span>
-            </h3>
-            <p class="lead text-white">The Design System comes with four pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 Design System.</p>
-            <div class="btn-wrapper">
-              <a href="./examples/login.html" class="btn btn-success">Login Page</a>
-              <a href="./examples/register.html" class="btn btn-white">Register Page</a>
-            </div>
-          </div>
-          <div class="col-lg-5 mb-lg-auto">
-            <div class="transform-perspective-right">
-              <div class="card bg-secondary shadow border-0">
-                <div class="card-header bg-white pb-5">
-                  <div class="text-muted text-center mb-3">
-                    <small>Sign in with</small>
-                  </div>
-                  <div class="btn-wrapper text-center">
-                    <a href="#" class="btn btn-neutral btn-icon">
-                      <span class="btn-inner--icon">
-                        <img src="./assets/img/icons/common/github.svg">
-                      </span>
-                      <span class="btn-inner--text">Github</span>
-                    </a>
-                    <a href="#" class="btn btn-neutral btn-icon">
-                      <span class="btn-inner--icon">
-                        <img src="./assets/img/icons/common/google.svg">
-                      </span>
-                      <span class="btn-inner--text">Google</span>
-                    </a>
-                  </div>
-                </div>
-                <div class="card-body px-lg-5 py-lg-5">
-                  <div class="text-center text-muted mb-4">
-                    <small>Or sign in with credentials</small>
-                  </div>
-                  <form role="form">
-                    <div class="form-group mb-3">
-                      <div class="input-group input-group-alternative">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text"><i class="ni ni-email-83"></i></span>
-                        </div>
-                        <input class="form-control" placeholder="Email" type="email">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="input-group input-group-alternative">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
-                        </div>
-                        <input class="form-control" placeholder="Password" type="password">
-                      </div>
-                    </div>
-                    <div class="custom-control custom-control-alternative custom-checkbox">
-                      <input class="custom-control-input" id=" customCheckLogin2" type="checkbox">
-                      <label class="custom-control-label" for=" customCheckLogin2">
-                        <span>Remember me</span>
-                      </label>
-                    </div>
-                    <div class="text-center">
-                      <button type="button" class="btn btn-primary my-4">Sign in</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- SVG separator -->
-      <div class="separator separator-bottom separator-skew">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-    </section>
-    <section class="section section-lg">
-      <div class="container">
-        <div class="row row-grid justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2 class="display-3">Do you love this awesome
-              <span class="text-success">Design System for Bootstrap 4?</span>
-            </h2>
-            <p class="lead">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the Design System in HTML. Start a new project or give an old Bootstrap project a new look!</p>
-            <div class="btn-wrapper">
-              <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-primary mb-3 mb-sm-0">Download HTML</a>
-            </div>
-            <div class="text-center">
-              <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
-              <div class="row justify-content-center">
-                <div class="col-lg-2 col-4">
-                  <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" data-toggle="tooltip" data-original-title="Bootstrap 4 - Most popular front-end component library">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" class="img-fluid">
-                  </a>
-                </div>
-                <div class="col-lg-2 col-4">
-                  <a href=" https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" data-toggle="tooltip" data-original-title="Vue.js - The progressive javascript framework">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
-                  </a>
-                </div>
-                <div class="col-lg-2 col-4">
-                  <a href=" https://www.sketchapp.com/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Sketch - Digital design toolkit">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-3">
-                  </a>
-                </div>
-                <div class="col-lg-2 col-4">
-                  <a href=" https://www.adobe.com/products/photoshop.html" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid opacity-3">
-                  </a>
-                </div>
-                <div class="col-lg-2 col-4">
-                  <a href=" https://angularjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid opacity-3">
-                  </a>
-                </div>
-                <div class="col-lg-2 col-4">
-                  <a href=" https://angularjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-3">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
   <footer class="footer has-cards">
-    <div class="container container-lg">
-      <div class="row">
-        <div class="col-md-6 mb-5 mb-md-0">
-          <div class="card card-lift--hover shadow border-0">
-            <a href="./examples/landing.html" title="Landing Page">
-              <img src="./assets/img/theme/landing.jpg" class="card-img">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 mb-5 mb-lg-0">
-          <div class="card card-lift--hover shadow border-0">
-            <a href="./examples/profile.html" title="Profile Page">
-              <img src="./assets/img/theme/profile.jpg" class="card-img">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="container">
       <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6">
@@ -1784,8 +1539,8 @@
   <script src="./assets/vendor/onscreen/onscreen.min.js"></script>
   <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
   <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-  <!-- Argon JS -->
-  <script src="./assets/js/argon.js?v=1.0.1"></script>
+  <!-- Solidarity JS -->
+  <script src="./assets/js/solidarity.js?v=1.0.1"></script>
 </body>
 
 </html>
