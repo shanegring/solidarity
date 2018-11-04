@@ -101,7 +101,7 @@ body
 
     text-align: left;
 
-    color: #525f7f;
+    color: #000;
     background-color: #fff;
 }
 
@@ -2446,7 +2446,7 @@ select.form-control:focus::-ms-value
     padding-top: .625rem;
     padding-bottom: .625rem;
 
-    color: #525f7f;
+    color: #000;
     border: solid transparent;
     border-width: 1px 0; 
     background-color: transparent;
@@ -4084,7 +4084,7 @@ input[type='button'].btn-block
 
     text-align: left;
 
-    color: #525f7f;
+    color: #000;
     border: 0 solid rgba(0, 0, 0, .15);
     border-radius: .3rem;
     background-color: #fff;
@@ -7615,7 +7615,7 @@ button.close
 {
     padding: .75rem .75rem;
 
-    color: #525f7f;
+    color: #000;
 }
 
 .carousel
@@ -12448,7 +12448,7 @@ a.text-darker:focus
 
 .text-body
 {
-    color: #525f7f !important;
+    color: #000 !important;
 }
 
 .text-muted
@@ -16337,7 +16337,7 @@ textarea[resize='horizontal']
 
 .navbar-light .navbar-brand
 {
-    color: #32325d;
+    color: #000;
 }
 
 .navbar-nav .nav-item .media:not(:last-child)
